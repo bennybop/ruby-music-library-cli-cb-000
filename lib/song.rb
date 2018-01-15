@@ -13,7 +13,7 @@ class Song
   end
 
   def self.all
-    @@all?
+    @@all
   end
 
   def self.find_by_name(name)
@@ -63,4 +63,4 @@ class Song
   def to_s
     "#{self.artist.name} - #{self.name} - #{self.genre.name}"
   end
-end 
+end
